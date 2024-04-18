@@ -1,0 +1,74 @@
+#pos{
+    position: absolute;
+    bottom: 9em;
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+    left: 10%;
+}
+.mainC{
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 30px;
+    position:fixed;
+    height: 100vh;
+    min-width: 300px;
+    width: 35%;
+    background-color: white;
+    z-index: 1;
+    color: #222222;
+    transition: 0.5s;
+}
+.mainC.open{
+    right: -41%;
+    opacity: 0;
+}
+#arrow{
+    width: 25px;
+    position: absolute;
+    left: 81%;
+    top: 28px;
+}
+#name{
+    margin-left: 27px;
+    display: inline;
+    position: absolute;
+    top: 80px;
+}
+#img{
+    width: 100px;
+    display: inline;
+}
+.check{
+    position: absolute;
+    width: 80%;
+    height: 5vh;
+    margin: 0px 3%;
+    font-size: 18px;
+}
+#view{
+    background-color:#E5E7EB;
+    color: black;  
+    bottom: 8em;
+}
+#out{
+    background-color: black;
+    color: white;
+    bottom: 5em;
+}
+#del{
+    font-size: 22px;
+    position: absolute;
+    bottom: 9.9em;
+    right: 2em;
+}
+#added{
+    max-height: 60vh;
+    overflow: auto;
+}
+#footer{
+    background-color: white;
+}

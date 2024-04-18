@@ -1,0 +1,41 @@
+header{
+    width: 90%;
+    background:transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    transition: 0.2s;
+}
+header.scrolled{
+    background: rgb(255, 255, 255);
+}
+.w40{
+    width: 50px;
+}
+.float{
+    float: right;
+    font-size: 40px;
+}
+button{
+    background: transparent;
+    border: none;
+}
+.container{
+    position: sticky;
+    margin: 0px 50px;
+}
+.cart{
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    width: 22px;
+    font-size: 18px;
+    background: red;
+    border: transparent;
+    border-radius: 23px;
+}
+nav{
+    position: sticky;
+    top: 0;
+}
