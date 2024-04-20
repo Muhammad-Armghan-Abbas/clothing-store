@@ -25,7 +25,7 @@ function View() {
               </div>
               <div id="blocked">
                 <h4>{title}</h4>
-                <h5>{price}</h5>
+                <h5>$ {price}</h5>
                 <h3>{description}</h3>
                 <button id="ADC" onClick={add}>Add To Cart</button>
               </div>
