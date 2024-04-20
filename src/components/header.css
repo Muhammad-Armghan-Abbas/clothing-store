@@ -1,21 +1,22 @@
 header{
-    width: 90%;
+    width: 100%;
     background:transparent;
     position: fixed;
-    top: 0;
+    top: 5px;
     left: 0;
-    padding: 20px;
     transition: 0.2s;
 }
 header.scrolled{
+    z-index: 1;
+    top: 0;
     background: rgb(255, 255, 255);
 }
 .w40{
-    width: 50px;
+    width: 40px;
 }
 .float{
     float: right;
-    font-size: 40px;
+    font-size: 30px;
 }
 button{
     background: transparent;
@@ -23,7 +24,6 @@ button{
 }
 .container{
     position: sticky;
-    margin: 0px 50px;
 }
 .cart{
     position: absolute;
@@ -36,6 +36,8 @@ button{
     border-radius: 23px;
 }
 nav{
+    width: 80%;
+    margin: 10px auto;
     position: sticky;
     top: 0;
 }

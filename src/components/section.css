@@ -4,9 +4,8 @@
 }
 }
 .FSection{
-    width: 102%;
+    width: 95%;
     height: 600px;
-    margin: -9px;
     padding-top: 200px;
     padding-left: 50px;
     background-image: url("./1.png");
@@ -14,8 +13,7 @@
     background-position-x: right;
 }
 #cover{
-    width: 25%;
-    height: 108vh;
+    height: 43em;
     position: absolute;
     right: 20%;
     top: 100px;
