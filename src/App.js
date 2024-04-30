@@ -4,6 +4,7 @@ import View from './components/pages/View.js';
 import Home from './components/pages/Home.js'
 import ShoppingBag from './components/ShoppingBag.js';
 import Header from './components/header.js'
+import Footer from './components/footer.js';
 function App() {
   document.addEventListener('scroll', () => {
     const head = document.querySelector('header');
@@ -23,6 +24,7 @@ function App() {
     <Route path='/view/:id' element={<View></View>}>
     </Route>
     </Routes>
+    <Footer></Footer>
    </div>
  </Router>
   )
