@@ -1,10 +1,8 @@
 import './section.css';
-import logo from './1.png';
 function Section(){
 return(
     <div className="FSection">
         <div className='Cont'>
-        <img id='BG' sc={logo} alt='bg'></img>
         <div className='linetext'> <div className='line'></div><div className="text">NEW TREND</div></div>
         <div><h1>AUTUMN SALE STYLISH <b>WOMENS</b></h1></div>
         <div><a id='a' href="https://">DISCOVER MORE</a></div>

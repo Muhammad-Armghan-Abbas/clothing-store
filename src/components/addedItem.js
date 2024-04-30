@@ -13,7 +13,7 @@ function AddedItem({ type, name, price, link, id }) {
     return (
         <>
         <div id="mainC">
-            <img alt="null" src={link} ></img>
+            <img className="image" alt="null" src={link} ></img>
             <div id="Cont">
                 <h1 className="inline h">
                     {name}</h1>
