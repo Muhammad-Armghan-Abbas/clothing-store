@@ -3,14 +3,16 @@
     display: none;
 }
 }
+.Cont{
+    padding-left: 10%;
+}
 .FSection{
     width: 95%;
     height: 600px;
     padding-top: 200px;
-    padding-left: 50px;
-    background-image: url("./1.png");
+   /* background-image: url("./1.png");
     background-repeat: no-repeat;
-    background-position-x: right;
+    background-position-x: right;*/
 }
 #cover{
     height: 43em;
