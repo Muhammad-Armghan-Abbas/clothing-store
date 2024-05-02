@@ -4,6 +4,7 @@
 }
 }
 .Cont{
+    overflow: auto;
     padding-left: 10%;
 }
 .FSection{
